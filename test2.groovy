@@ -7,13 +7,10 @@ node {
     archiveArtifacts artifacts: 'target/*.jar', onlyIfSuccessful: true
   }
   stage ('analysis') {
-    //bat "mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar"
-    //junit 'target/surefire-reports/*.xml'
+    
     bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar \
-  -Dsonar.projectKey=wertfg \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=b28333f90083aa7ab0b59d11dc1c9ba3dc5c1696"
-  }
+  -Dsonar.login=dd15c01be9f16902157f80e03d3ccb94840cb0f3"
   stage('upload to nexus') {
     //bat "mvn verify sonar:sonar"
     // bat "mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=RanjanGitHubb_mark2"

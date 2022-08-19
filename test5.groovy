@@ -4,7 +4,8 @@ node {
   }
   stage('SonarQube analysis') {
    bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar \
-  -Dsonar.login=8eca862fd93a92c3e6ae9a1b0b1fcbe627febe73"
+  -Dsonar.login=8eca862fd93a92c3e6ae9a1b0b1fcbe627febe73 \
+   -Dsonar.host.url=http://localhost:9000 "
     
   }
 }

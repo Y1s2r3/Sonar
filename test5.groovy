@@ -9,7 +9,6 @@ node {
   //-Dsonar.projectKey=wertfgf \
   -Dsonar.host.url=http://localhost:9000 \
   //-Dsonar.login=8eca862fd93a92c3e6ae9a1b0b1fcbe627febe73
-  }
     }
   }
 }

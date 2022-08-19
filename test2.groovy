@@ -11,6 +11,7 @@ node {
     bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar \
   -Dsonar.host.url=http://localhost:9000 \
   -Dsonar.login=dd15c01be9f16902157f80e03d3ccb94840cb0f3"
+  }
   stage('upload to nexus') {
     //bat "mvn verify sonar:sonar"
     // bat "mvn verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=RanjanGitHubb_mark2"

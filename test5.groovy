@@ -6,7 +6,6 @@ node {
    bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar \
   -Dsonar.projectKey=wertfgf \
   -Dsonar.host.url=http://localhost:9000 \
-   -Dsonar.user=admin \
   -Dsonar.login=8eca862fd93a92c3e6ae9a1b0b1fcbe627febe73"
     
   }

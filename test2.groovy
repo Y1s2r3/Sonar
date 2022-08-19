@@ -10,6 +10,7 @@ node {
     
     bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar \
   -Dsonar.host.url= https://sonarcloud.io \
+   -Dsonar.user=admin \
   -Dsonar.login=92a8e91bb1971fb2decf6baa3e839e815a39b0f0"
   }
   stage('upload to nexus') {

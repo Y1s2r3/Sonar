@@ -24,7 +24,7 @@ node {
     credentialsId: 'Nexus_Repo',
     groupId: 'NexusRepo',
     nexusUrl: 'http://localhost:8081/',
-    nexusVersion: 'nexus2',
+    nexusVersion: 'nexus3',
     protocol: 'http',
     repository: 'Nexus-Repo',
     version: '3.4.2'

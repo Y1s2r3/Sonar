@@ -14,3 +14,4 @@ node {
    
      nexusArtifactUploader credentialsId: 'Nexus_Repo', groupId: 'Nexus-Repo', nexusUrl: 'localhost:8081/', nexusVersion: 'nexus3', protocol: 'http', repository: 'Nexus-Repo', version: '4.3.4' 
 }
+}

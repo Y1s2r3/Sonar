@@ -20,7 +20,7 @@ node {
         type: 'jar'
       ]
     ], 
-      credentialsId: 'Nexus-Repo', 
+      credentialsId: 'Nexus_Repo', 
       groupId: 'mavenforjenkins', 
       nexusUrl: 'localhost:8081', 
       nexusVersion: 'nexus3', 

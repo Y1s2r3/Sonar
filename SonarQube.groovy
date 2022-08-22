@@ -21,7 +21,7 @@ node {
       ]
     ], 
     
-    credentialsId: 'Nexus_Repo',
+    credentialsId: 'Nexus-user',
     groupId: 'NexusRepo',
     nexusUrl: 'localhost:8081',
     nexusVersion: 'nexus3',

@@ -14,9 +14,9 @@ node {
    
     nexusArtifactUploader artifacts: [
       [
-        artifactId: 'mavenforjenkins1', 
+        artifactId: 'mavenforjenkins', 
         classifier: '', 
-        file: 'target/mavenforjenkins-0.0.1-SNAPSHOT.jar', 
+        file: 'target/mavenforjenkins-0.0.2-SNAPSHOT.jar', 
         type: 'jar'
       ]
     ], 

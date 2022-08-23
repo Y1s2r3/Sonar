@@ -26,7 +26,7 @@ node {
     nexusUrl: 'localhost:8081',
     nexusVersion: 'nexus3',
     protocol: 'http',
-    repository: 'Nexus-Repo',
+    repository: 'Nexus1',
     version: '4.0.0'
   }
 }

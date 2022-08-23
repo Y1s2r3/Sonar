@@ -8,7 +8,7 @@ node {
   stage ('analysis') {
      bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar \
   -Dsonar.host.url=http://localhost:9000 \
-  -Dsonar.login=f1b02859e6a66c45d03e242f3bfe2ac79572f30f"
+  -Dsonar.login=9cd8c838bb0c984756c002fcc24c821c94d653f5"
   }
   stage('upload to nexus') {
    

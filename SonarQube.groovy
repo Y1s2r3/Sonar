@@ -21,7 +21,7 @@ node {
       ]
     ], 
     
-    credentialsId: 'Nexus1',
+    credentialsId: 'Nexus2',
     groupId: 'mavenforjenkins',
     nexusUrl: 'localhost:8081',
     nexusVersion: 'nexus3',

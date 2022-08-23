@@ -3,7 +3,7 @@ node {
   git "https://github.com/Y1s2r3/Sonar.git"
   }
   stage('Build') {
-    bat "mvn -Dmaven.test.failure.ignore=true clean package"
+    bat "mvn -Dmaven.test.failure.ignore=true clean compile test package"
   }
   stage ('analysis') {
      bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.7.0.1746:sonar \

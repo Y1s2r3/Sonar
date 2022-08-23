@@ -16,7 +16,7 @@ node {
       [
         artifactId: 'mavenforjenkins', 
         classifier: '', 
-        file: 'target/mavenforjenkins-0.0.3-SNAPSHOT.jar', 
+        file: 'target/mavenforjenkins-0.0.2-SNAPSHOT.jar', 
         type: 'jar'
       ]
     ], 
@@ -27,6 +27,6 @@ node {
     nexusVersion: 'nexus3',
     protocol: 'http',
     repository: 'Nexus-Repo',
-    version: '5.0.0'
+    version: '4.0.0'
   }
 }

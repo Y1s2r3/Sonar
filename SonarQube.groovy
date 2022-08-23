@@ -22,11 +22,11 @@ node {
     ], 
     
     credentialsId: 'Nexus-user',
-    groupId: 'NexusRepo',
+    groupId: 'mavenforjenkins',
     nexusUrl: 'localhost:8081',
     nexusVersion: 'nexus3',
     protocol: 'http',
     repository: 'Nexus-Repo',
-    version: '3.4.2'
+    version: '4.0.0'
   }
 }

@@ -22,7 +22,7 @@ node {
     ], 
     
     credentialsId: 'Nexus1',
-    groupId: 'mavenforjenkns1',
+    groupId: 'mavenforjenkins',
     nexusUrl: 'localhost:8081',
     nexusVersion: 'nexus3',
     protocol: 'http',

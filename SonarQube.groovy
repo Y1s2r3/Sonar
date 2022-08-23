@@ -27,6 +27,6 @@ node {
     nexusVersion: 'nexus3',
     protocol: 'http',
     repository: 'Nexus-Repo',
-    version: '4.0.0'
+    version: '5.0.0'
   }
 }
